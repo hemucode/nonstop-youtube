@@ -7,7 +7,7 @@
          "64": "data/icons/64.png"
       },
       "default_popup": "data/interface/index.html?popup",
-      "default_title": "__MSG_name_adblock_on_youtube__"
+      "default_title": "__MSG_app_name__"
    },
    "background": {
       "service_worker": "background.js"
@@ -18,11 +18,11 @@
       "js": [ "bundled-content-script.js" ],
       "matches": [ "*://youtube.com/*", "*://www.youtube.com/*", "*://m.youtube.com/*", "*://*.music.youtube.com/*" ]
    } ],
-   "description": "__MSG_description_yt__",
+   "description": "__MSG_app_description__",
    "externally_connectable": {
       "matches": [ "*://*.youtube.com/*" ]
    },
-   "homepage_url": "https://www.needevery.in/2022/08/adblocker-on-youtube.html",
+   "homepage_url": "https://www.downloadhub.cloud/2022/10/nonstopyoutube.html",
    "host_permissions": [ "*://*.youtube.com/*" ],
    "icons": {
       "128": "data/icons/128.png",
@@ -32,8 +32,8 @@
       "64": "data/icons/64.png"
    },
    "manifest_version": 3,
-   "name": "__MSG_name_adblock_on_youtube__",
-   "permissions": [ "storage" ],
-   "short_name": "adsblocker",
-   "version": "4.27.0.4"
+   "name": "__MSG_app_name__",
+   "permissions": [ "activeTab", "scripting" ,"storage" ],
+   "short_name": "nonstops",
+   "version": "4.0"
 }
