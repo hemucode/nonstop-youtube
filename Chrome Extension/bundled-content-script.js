@@ -1,12 +1,9 @@
 /*!
- *  Mytube for youtube by @thegayen - https://github.com/codegayen/Mytube-for-YouTube/ - @fontawesome
- *  License - https://github.com/codegayen/Mytube-for-YouTube/license ( CSS: MIT License)
+ *  By @Codehemu - https://github.com/hemucode/nonstop-youtube/license ( JS: MIT License)
+ *  License - https://github.com/hemucode/nonstop-youtube/license ( CSS: MIT License)
  */
+
 setInterval(()=>{
-    logopath = document.querySelector("ytd-topbar-logo-renderer #logo-icon svg g g path");
-    if (logopath) {
-        logopath.style.fill="#58a6ff";
-    }
     if( ! document.querySelector('.ad-showing') ) return
  
           const video=document.querySelector('video')
