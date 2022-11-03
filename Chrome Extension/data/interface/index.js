@@ -1,6 +1,8 @@
 domReady(() => {
   linkButton()
   hoverButton()
+  translateHTML()
+  credityear()
 })
 
 function domReady (callback) {
@@ -10,12 +12,22 @@ function domReady (callback) {
     window.addEventListener('load', callback, false);
   }
 }
+function translateHTML (dataKey = 'message') {
+  for (const $element of document.getElementsByTagName('*')) {
+    if ($element.dataset && $element.dataset[dataKey]) {
+      $element.innerText = chrome.i18n.getMessage($element.dataset[dataKey])
+    }
+  }
+}
+function credityear() {
+  document.querySelector("#year").innerText =  new Date().getFullYear();
+}
 
 function linkButton() {
-  document.querySelector('.teaser').href = `https://www.needevery.in/2022/08/adblocker-on-youtube.html`;
+  document.querySelector('.teaser').href = `https://www.downloadhub.cloud/2022/10/nonstopyoutube.html`;
   document.querySelector('.youtube').href = `https://youtube.com/c/HemantaGayen`;
   document.querySelector('.facebook').href = `https://www.facebook.com/codehemu/`;
-  document.querySelector('.website').href = `https://www.needevery.in/2022/08/adblocker-on-youtube.html`;
+  document.querySelector('.website').href = `https://www.downloadhub.cloud/`;
 }
 
 function hoverButton(){
@@ -23,8 +35,8 @@ function hoverButton(){
   document.querySelector(".div_myadblock").addEventListener("mouseout" , mouseOut);
   document.querySelector(".cta-description").addEventListener("click", linkopen);
   document.querySelector(".cta-close").addEventListener("click", messageclose);
-  document.querySelector(".devoloperid").addEventListener("click", devoloperid);
   document.querySelector("#header-icons").addEventListener("click", headericons);
+  document.querySelector(".devoloperid").addEventListener("click", devoloperid);
   if (localStorage.block=="block") {
     document.querySelector(".div_myadblock").style.display="none";
   }
@@ -35,7 +47,7 @@ function mouseOver() {
     document.querySelector(".cta-message").innerText="Install YouTube Nyan Cat";
     document.querySelector(".div_myadblock").style.background="#a900ff";
   }else{
-    document.querySelector(".cta-message").innerText="Install YouTube Auto";
+    document.querySelector(".cta-message").innerText="Search with Facebook";
     document.querySelector(".div_myadblock").style.background="#0047ff";
   }
     
@@ -43,22 +55,23 @@ function mouseOver() {
 } 
 
 function mouseOut() {
-    document.querySelector(".cta-message").innerText="Upgrade your YouTube";
+    document.querySelector(".cta-message").innerText="Upgrade your Facebook";
     document.querySelector(".cta-close").style.display="none";
     document.querySelector(".div_myadblock").style.background="#fff";
 }
 
+function devoloperid(){
+    window.open("https://www.codehemu.com/2022",'_blank');
+}
 function linkopen(){
   if (localStorage.message=="nyancat") {
     window.open("https://www.codehemu.com/2022/04/nyancat.html",'_blank');
   }else{
-    window.open("https://www.codehemu.com/p/mytubeforyoutube.html",'_blank');
+    window.open("https://www.downloadhub.cloud/2022/09/sponsorblock-for-facebook.html",'_blank');
   }
 
 }
-function devoloperid(){
-    window.open("https://www.codehemu.com/p/donate.html",'_blank');
-}
+
 function messageclose(){
   if (localStorage.message=="nyancat") {
     localStorage.setItem("block", "block");
@@ -67,8 +80,9 @@ function messageclose(){
   localStorage.setItem("message", "nyancat");
 }
 function headericons(){
-    window.open("https://www.needevery.in/2022/08/adblocker-on-youtube.html",'_blank');
+    window.open("https://www.downloadhub.cloud/2022/10/nonstopyoutube.html#CSS2",'_blank');
 }
+
 
 var background = (function () {
   var tmp = {};
