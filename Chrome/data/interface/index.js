@@ -24,7 +24,7 @@ function credityear() {
 }
 
 function linkButton() {
-  document.querySelector('.teaser').href = `https://www.downloadhub.cloud/2022/10/nonstopyoutube.html`;
+  document.querySelector('.teaser').href = `https://chrome.google.com/webstore/detail/nonstop-youtube/${chrome.runtime.id}/reviews`;
   document.querySelector('.youtube').href = `https://youtube.com/c/HemantaGayen`;
   document.querySelector('.facebook').href = `https://www.facebook.com/codehemu/`;
   document.querySelector('.website').href = `https://www.downloadhub.cloud/`;
