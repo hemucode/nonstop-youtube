@@ -1,0 +1,18 @@
+{
+   "app_description": {
+      "message": "YouTube berjalan tanpa henti Tidak ada video yang dijeda, Tidak ada iklan video"
+   },
+   "app_name": {
+      "message": "TanpaHenti Youtube™"
+   },
+   "full_description":{
+      "message" :"Nonstop YouTube™ adalah ekstensi browser tanpa henti tanpa jeda video dan pemblokiran iklan yang memblokir semua iklan di youtube."
+   },
+   "rate": {
+      "message" :"Tolong bantu dan nilai kami"
+   },
+   "donate":{
+      "message" :"sumbangan"
+   }
+
+}

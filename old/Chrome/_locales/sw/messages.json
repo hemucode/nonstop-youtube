@@ -1,0 +1,17 @@
+{
+   "app_description": {
+      "message": "YouTube inaendeshwa bila kikomo Hakuna video iliyositishwa, Hakuna matangazo ya video"
+   },
+   "app_name": {
+      "message": "BilaKuacha Youtube™"
+   },
+   "full_description":{
+      "message" :"Nostop YouTube™ inaendeshwa bila kikomo Hakuna video iliyositishwa na kiendelezi cha kivinjari cha kuzuia matangazo ambacho huzuia matangazo yote kwenye youtube."
+   },
+   "rate": {
+      "message" :"Tafadhali tusaidie na utupime!"
+   },
+   "donate":{
+      "message" :"mchango"
+   }
+}

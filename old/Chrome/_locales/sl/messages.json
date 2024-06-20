@@ -1,0 +1,17 @@
+{
+   "app_description": {
+      "message": "YouTube deluje neprekinjeno. Brez zaustavljenega videa, brez video oglasov"
+   },
+   "app_name": {
+      "message": "Nonstop Youtubu™"
+   },
+   "full_description":{
+      "message" :"Nonstop YouTube™ je neprekinjeno delujoča razširitev brskalnika brez zaustavljenega videa in blokiranja oglasov, ki blokira vse oglase na YouTubu."
+   },
+   "rate": {
+      "message" :"Prosimo, pomagajte in nas ocenite!"
+   },
+   "donate":{
+      "message" :"darovanje"
+   }
+}

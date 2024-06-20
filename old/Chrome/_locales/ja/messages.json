@@ -1,0 +1,17 @@
+{
+   "app_description": {
+      "message": "Nonstop YouTube™ は、YouTube のすべての広告をブロックする、ビデオを一時停止して広告をブロックする、ノンストップで実行中のブラウザ拡張機能です。"
+   },
+   "app_name": {
+      "message": "Nonstop Youtube™"
+   },
+   "full_description":{
+      "message" :"Nonstop YouTube™ は、YouTube のすべての広告をブロックする、ビデオを一時停止して広告をブロックする、ノンストップで実行中のブラウザ拡張機能です。"
+   },
+   "rate": {
+      "message" :"私たちを助け、評価してください"
+   },
+   "donate":{
+      "message" :"寄付"
+   }
+}

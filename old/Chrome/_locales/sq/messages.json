@@ -1,0 +1,17 @@
+{
+   "app_description": {
+      "message": "YouTube funksionon pa ndërprerje Asnjë video në pauzë, Nuk ka reklama video"
+   },
+   "app_name": {
+      "message": "PaPushim Youtube™"
+   },
+   "full_description":{
+      "message" :"Nonstop YouTube™ është një shtesë e shfletuesit pa ndërprerje që funksionon pa ndërprerje dhe bllokon reklamat që bllokon të gjitha reklamat në youtube."
+   },
+   "rate": {
+      "message" :"Ju lutemi na ndihmoni dhe na vlerësoni!"
+   },
+   "donate":{
+      "message" :"dhurim"
+   }
+}

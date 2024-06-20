@@ -1,0 +1,17 @@
+{
+   "app_description": {
+      "message": "YouTube läuft ununterbrochen Kein Video angehalten, keine Videoanzeigen"
+   },
+   "app_name": {
+      "message": "NonStop YouTube™"
+   },
+   "full_description":{
+      "message" :"Nonstop YouTube™ ist eine Browsererweiterung, die nonstop läuft, kein Video pausiert und Werbung blockiert und alle Anzeigen auf YouTube blockiert."
+   },
+   "rate": {
+      "message" :"Bitte helft uns und bewertet uns"
+   },
+   "donate":{
+      "message" :"Spende"
+   }
+}

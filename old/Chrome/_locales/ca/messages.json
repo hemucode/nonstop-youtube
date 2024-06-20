@@ -1,0 +1,17 @@
+{
+   "app_description": {
+      "message": "YouTube funciona sense parar No hi ha cap vídeo en pausa ni anuncis de vídeo"
+   },
+   "app_name": {
+      "message": "SenseParar YouTube™"
+   },
+   "full_description":{
+      "message" :"Nonstop YouTube™ és una extensió del navegador sense aturar sense cap vídeo en pausa i amb bloqueig d'anuncis que bloqueja tots els anuncis de YouTube."
+   },
+   "rate": {
+      "message" :"Ajudeu-nos i valoreu-nos"
+   },
+   "donate":{
+      "message" :"donació"
+   }
+}

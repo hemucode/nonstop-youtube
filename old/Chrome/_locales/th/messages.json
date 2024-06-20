@@ -1,0 +1,17 @@
+{
+   "app_description": {
+      "message": "YouTube ทำงานไม่หยุด ไม่มีวิดีโอหยุดชั่วคราว ไม่มีโฆษณาวิดีโอ"
+   },
+   "app_name": {
+      "message": "Nonstop Youtube™"
+   },
+   "full_description":{
+      "message" :"Nonstop YouTube™ เป็นโปรแกรมเล่นไม่หยุด ไม่มีวิดีโอหยุดชั่วคราวและส่วนขยายเบราว์เซอร์บล็อกโฆษณาซึ่งบล็อกโฆษณาทั้งหมดบน youtube"
+   },
+   "rate": {
+      "message" :"กรุณาช่วยและให้คะแนนเรา!"
+   },
+   "donate":{
+      "message" :"บริจาค"
+   }
+}

@@ -1,0 +1,19 @@
+{
+   "app_description": {
+      "message": "YouTube 不間斷運行 沒有視頻暫停，沒有視頻廣告"
+   },
+   "app_name": {
+      "message": "不停 Youtube™"
+   },
+   "full_description":{
+      "message" :"Nonstop YouTube™ 是一個不間斷運行的無視頻暫停和廣告攔截瀏覽器擴展程序，可攔截 youtube 上的所有廣告。"
+   },
+   "rate": {
+      "message" :"請幫助和評價我們！"
+   },
+   "donate":{
+      "message" :"捐款"
+   }
+}
+
+

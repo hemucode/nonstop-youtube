@@ -1,0 +1,17 @@
+{
+   "app_description": {
+      "message": "„YouTube“ veikia be perstojo Nėra pristabdytų vaizdo įrašų, nėra vaizdo įrašo skelbimų"
+   },
+   "app_name": {
+      "message": "Be sustojimo Youtube™"
+   },
+   "full_description":{
+      "message" :"„Nonstop YouTube™“ yra be perstojo veikianti „Nėra vaizdo įrašo pristabdyta“ ir skelbimus blokuojanti naršyklės plėtinys, kuris blokuoja visus „YouTube“ skelbimus."
+   },
+   "rate": {
+      "message" :"Prašome padėti ir įvertinti mus"
+   },
+   "donate":{
+      "message" :"donorystė"
+   }
+}

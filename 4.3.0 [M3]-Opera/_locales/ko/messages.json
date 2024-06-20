@@ -1,0 +1,17 @@
+{
+   "app_description": {
+      "message": "논스톱으로 실행되는 YouTube 일시 중지된 동영상 없음, 동영상 광고 없음"
+   },
+   "app_name": {
+      "message": "Nonstop Youtube™"
+   },
+   "full_description":{
+      "message" :"Nonstop YouTube™는 YouTube의 모든 광고를 차단하는 논스톱 No video paused 및 광고 차단 브라우저 확장 프로그램입니다."
+   },
+   "rate": {
+      "message" :"도와주시고 평가해주세요"
+   },
+   "donate":{
+      "message" :"기부"
+   }
+}

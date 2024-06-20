@@ -1,0 +1,17 @@
+{
+   "app_description": {
+      "message": "YouTube draait non-stop Geen video onderbroken, geen videoadvertenties"
+   },
+   "app_name": {
+      "message": "Nonstop Youtube™"
+   },
+   "full_description":{
+      "message" :"Non-stop YouTube™ is een non-stop browserextensie zonder video gepauzeerd en advertentieblokkering die alle advertenties op YouTube blokkeert."
+   },
+   "rate": {
+      "message" :"Help ons alstublieft en beoordeel ons"
+   },
+   "donate":{
+      "message" :"bijdrage"
+   }
+}

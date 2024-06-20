@@ -1,0 +1,17 @@
+{
+   "app_description": {
+      "message": "YouTube darbojas bez pārtraukuma Nav apturēts video, nav videoreklāmu"
+   },
+   "app_name": {
+      "message": "Bez apstājas Youtube™"
+   },
+   "full_description":{
+      "message" :"Nonstop YouTube™ darbojas nepārtraukti, bez video pauzēšanas un reklāmu bloķēšanas pārlūkprogrammas paplašinājums, kas bloķē visas reklāmas pakalpojumā YouTube."
+   },
+   "rate": {
+      "message" :"Lūdzu, palīdziet un novērtējiet mūs"
+   },
+   "donate":{
+      "message" :"ziedojums"
+   }
+}
