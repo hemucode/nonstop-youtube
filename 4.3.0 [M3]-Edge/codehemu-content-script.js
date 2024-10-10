@@ -181,10 +181,6 @@ class SkipVideoAds {
       (function () {
         if (!playerContainer) {
           document.querySelector(skipButton)?.click();
-          document.querySelector(".ytp-ad-skip-button")?.click();
-          document.querySelector(".ytp-skip-ad-button")?.click();
-          document.querySelector(".ytp-ad-skip-button-modern")?.click();
-          document.querySelector(".ytp-ad-survey")?.click();
         }
       })(),
       function () {

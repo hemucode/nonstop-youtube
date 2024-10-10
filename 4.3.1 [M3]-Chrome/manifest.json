@@ -41,5 +41,6 @@
    "manifest_version": 3,
    "name": "__MSG_app_name__",
    "permissions": [ "activeTab","declarativeNetRequest", "storage" ],
-   "version": "4.3"
+   "short_name": "nonstops",
+   "version": "4.3.1"
 }

@@ -5,7 +5,7 @@
  */
 
 
-const WEBSTORE = `https://addons.opera.com/en/extensions/details/nonstop-youtubetm/`;
+const WEBSTORE = `https://chrome.google.com/webstore/detail/${chrome.runtime.id}`;
 const POPUP_RESTRICTION_DATE = "popupRestrictionKey";
 const POPUP_RATE_DATE = "popupRateDateKey";
 const MIN_RATE_POPUP_GAPE_DAY =  1000 * 60 * 60 * 24 * 3; // 3 days
@@ -181,10 +181,6 @@ class SkipVideoAds {
       (function () {
         if (!playerContainer) {
           document.querySelector(skipButton)?.click();
-          document.querySelector(".ytp-ad-skip-button")?.click();
-          document.querySelector(".ytp-skip-ad-button")?.click();
-          document.querySelector(".ytp-ad-skip-button-modern")?.click();
-          document.querySelector(".ytp-ad-survey")?.click();
         }
       })(),
       function () {
@@ -242,10 +238,10 @@ class Dialog {
           }else if(this.isRateUsPopupEnabled){
             if (popup_date && rate_date) {
               if (popup_date + rate_date < now) {
-                this.createDialogPopup(chrome.i18n.getMessage("rate") ,`${WEBSTORE}`, rate_date + MIN_RATE_POPUP_GAPE_DAY);
+                this.createDialogPopup(chrome.i18n.getMessage("rate") ,`${WEBSTORE}/reviews`, rate_date + MIN_RATE_POPUP_GAPE_DAY);
               }
             }else{
-               this.createDialogPopup(chrome.i18n.getMessage("rate") ,`${WEBSTORE}`, MIN_RATE_POPUP_GAPE_DAY);
+               this.createDialogPopup(chrome.i18n.getMessage("rate") ,`${WEBSTORE}/reviews`, MIN_RATE_POPUP_GAPE_DAY);
             } 
           }
 
